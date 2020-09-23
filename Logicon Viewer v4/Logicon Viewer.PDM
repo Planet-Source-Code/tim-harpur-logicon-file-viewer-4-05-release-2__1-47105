@@ -1,0 +1,418 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\TEMP
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\dx7vb.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Logicon\Logicon Viewer\Logicon.wav=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Logicon\Logicon Viewer\Logicon File Viewer 3.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\dx7vb.dll=Yes
+C:\WINDOWS\SYSTEM\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Logicon\Logicon Viewer\Logicon.wav=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Logicon\Logicon Viewer\Logicon File Viewer 3.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\dx7vb.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Logicon\Logicon Viewer\Logicon.wav=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Logicon\Logicon Viewer\Logicon File Viewer 3.exe=No
+C:\Logicon\Logicon Viewer\Logicon.wav=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Logicon Viewer 3
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Logicon Viewer 3
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Logicon Viewer 3]
+Icon1="Logicon File Viewer 3.exe"
+Title1=Logicon Viewer 3
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\TEMP
+ProjectFolder=C:\Logicon\Logicon Viewer
+ServerSideCab=
+File1=D:\TEMP\setup.exe
+File2=D:\TEMP\Setup.Lst
+File3=D:\TEMP\Logico1.CAB
+File4=D:\TEMP\Logico2.CAB
+File5=D:\TEMP\Logico3.CAB
+File6=D:\TEMP\Logico4.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|Logicon File Viewer 3|Logicon Viewer 3]
+Icon1="Logicon File Viewer 3.exe"
+Title1=Logicon Viewer 3
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Logicon File Viewer 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\My Documents\Logicon\LogiconWEBSite\Product\Logicon File Viewer
+
+[Package|Logicon File Viewer 3|Configure DAO ISAMs]
+Applicable=No
+Jet 2.x=No
+
+[Package|Logicon File Viewer 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Logicon File Viewer 3|Files Found]
+Explorer.ocx=C:\Logicon\ExplorerCntrl\Explorer.ocx
+SETUP.EXE=C:\Visual Basic 6\VB98\Wizards\PDWizard\SETUP.EXE
+bclick1.wav=C:\My Documents\Logicon\Logicon Viewer\bclick1.wav
+bclick2a.wav=C:\My Documents\Logicon\Logicon Viewer\bclick2a.wav
+
+[Package|Logicon File Viewer 3|Files Released]
+logicon.wav=
+
+[Package|Logicon File Viewer 3|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\dx7vb.dll=
+C:\Logicon\ExplorerCntrl\Explorer.ocx=
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=
+C:\WINDOWS\SYSTEM\Explorer.ocx=
+
+[Package|Logicon File Viewer 3|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\scrrun.dll=
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+
+[Package|Logicon File Viewer 3|Files Added]
+bclick1.wav=
+bclick2a.wav=
+bclick2b.wav=
+
+[Package|Logicon File Viewer 3|Files Removed]
+
+[Package|Logicon File Viewer 3|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\dx7vb.dll=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\My Documents\Logicon\Logicon Viewer\Logicon File Viewer 3.exe=Yes
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Documents\Logicon\Logicon Viewer\bclick1.wav=Yes
+C:\My Documents\Logicon\Logicon Viewer\bclick2a.wav=Yes
+C:\My Documents\Logicon\Logicon Viewer\bclick2b.wav=Yes
+
+[Package|Logicon File Viewer 3|Configure Registry Files]
+Applicable=No
+
+[Package|Logicon File Viewer 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Logicon File Viewer 3|Install Locations]
+C:\Logicon\Logicon Viewer\Logicon File Viewer 3.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\dx7vb.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\CorelDraw 8\Special\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Logicon\Logicon Viewer\Logicon.wav=$(AppPath)
+C:\Logicon\ExplorerCntrl\Explorer.ocx=$(WinSysPath)
+C:\Logicon\Logicon Viewer\bclick1.wav=$(AppPath)
+C:\Logicon\Logicon Viewer\bclick2a.wav=$(AppPath)
+C:\Logicon\Logicon Viewer\bclick2b.wav=$(AppPath)
+c:\Visual Basic 6\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+c:\Visual Basic 6\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+c:\Visual Basic 6\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+c:\Visual Basic 6\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+c:\Visual Basic 6\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Logicon\PersonalManager98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(WinSysPath)
+C:\Logicon\PersonalManager98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Logicon\PersonalManager98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Logicon\PersonalManager98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\Explorer.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\Logicon\Logicon Viewer\Logicon File Viewer 3.exe=$(AppPath)
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\Logicon\Logicon Viewer\bclick1.wav=$(AppPath)
+C:\My Documents\Logicon\Logicon Viewer\bclick2a.wav=$(AppPath)
+C:\My Documents\Logicon\Logicon Viewer\bclick2b.wav=$(AppPath)
+
+[Package|Logicon File Viewer 3|Configure Shared Files]
+Applicable=Yes
+C:\Logicon\Logicon Viewer\Logicon File Viewer 3.exe=No
+C:\Logicon\Logicon Viewer\Logicon.wav=No
+C:\Logicon\Logicon Viewer\bclick1.wav=No
+C:\Logicon\Logicon Viewer\bclick2a.wav=No
+C:\Logicon\Logicon Viewer\bclick2b.wav=No
+C:\My Documents\Logicon\Logicon Viewer\Logicon File Viewer 3.exe=No
+C:\My Documents\Logicon\Logicon Viewer\bclick1.wav=No
+C:\My Documents\Logicon\Logicon Viewer\bclick2a.wav=No
+C:\My Documents\Logicon\Logicon Viewer\bclick2b.wav=No
+
+[Package|Logicon File Viewer 3|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Logicon Viewer 3
+
+[Package|Logicon File Viewer 3|IconGroups]
+Group0=Logicon Enterprises
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Logicon File Viewer 3|Logicon Enterprises]
+Icon1="Logicon File Viewer 3.exe"
+Title1=Logicon Viewer 3
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Logicon File Viewer 3|Package]
+PackageFolder=c:\My Documents\Logicon\LogiconWEBSite\Product\Logicon File Viewer
+ProjectFolder=C:\My Documents\Logicon\Logicon Viewer
+ServerSideCab=
+File1=c:\My Documents\Logicon\LogiconWEBSite\Product\Logicon File Viewer\setup.exe
+File2=c:\My Documents\Logicon\LogiconWEBSite\Product\Logicon File Viewer\Setup.Lst
+File3=c:\My Documents\Logicon\LogiconWEBSite\Product\Logicon File Viewer\Logico1.CAB
+File4=c:\My Documents\Logicon\LogiconWEBSite\Product\Logicon File Viewer\Logico2.CAB
+File5=c:\My Documents\Logicon\LogiconWEBSite\Product\Logicon File Viewer\Logico3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\Logicon\LogiconWEBSite\Product\Logicon Viewer 4
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\DX7VB.DLL=
+C:\Program Files\Common Files\Microsoft Shared\Dao\DAO360.DLL=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+C:\WINDOWS\SYSTEM\scrrun.dll=
+
+[Package|Standard Setup Package 2|Files Added]
+C:\My Documents\Logicon\Logicon Viewer v4\bclick1.wav=
+C:\My Documents\Logicon\Logicon Viewer v4\bclick2a.wav=
+C:\My Documents\Logicon\Logicon Viewer v4\bclick2b.wav=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\My Documents\Logicon\Logicon Viewer v4\Logicon File Viewer 4.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\DAO360.DLL=Yes
+C:\WINDOWS\SYSTEM\DX7VB.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Documents\Logicon\Logicon Viewer v4\bclick1.wav=Yes
+C:\My Documents\Logicon\Logicon Viewer v4\bclick2a.wav=Yes
+C:\My Documents\Logicon\Logicon Viewer v4\bclick2b.wav=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\My Documents\Logicon\Logicon Viewer v4\Logicon File Viewer 4.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\Dao\DAO360.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DX7VB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Windows Media Player\skins\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\Logicon\Logicon Viewer v4\bclick1.wav=$(AppPath)
+C:\My Documents\Logicon\Logicon Viewer v4\bclick2a.wav=$(AppPath)
+C:\My Documents\Logicon\Logicon Viewer v4\bclick2b.wav=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\Logicon\Logicon Viewer v4\Logicon File Viewer 4.exe=No
+C:\My Documents\Logicon\Logicon Viewer v4\bclick1.wav=No
+C:\My Documents\Logicon\Logicon Viewer v4\bclick2a.wav=No
+C:\My Documents\Logicon\Logicon Viewer v4\bclick2b.wav=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Logicon File Viewer 4
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Logicon Enterprises
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Logicon Enterprises]
+Icon1="Logicon File Viewer 4.exe"
+Title1=Logicon File Viewer 4
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\My Documents\Logicon\LogiconWEBSite\Product\Logicon Viewer 4
+ProjectFolder=C:\My Documents\Logicon\Logicon Viewer v4
+ServerSideCab=
+File1=C:\My Documents\Logicon\LogiconWEBSite\Product\Logicon Viewer 4\setup.exe
+File2=C:\My Documents\Logicon\LogiconWEBSite\Product\Logicon Viewer 4\Setup.Lst
+File3=C:\My Documents\Logicon\LogiconWEBSite\Product\Logicon Viewer 4\Logico1.CAB
+File4=C:\My Documents\Logicon\LogiconWEBSite\Product\Logicon Viewer 4\Logico2.CAB
+File5=C:\My Documents\Logicon\LogiconWEBSite\Product\Logicon Viewer 4\Logico3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
